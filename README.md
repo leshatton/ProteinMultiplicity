@@ -1,5 +1,8 @@
 # ProteinMultiplicity
 
+## Apr 2023
+Added scripts to reproduce Figs 2a-d and also Fig 4.
+
 ## Aug 2022
 
 This is a complete reproducibility package for the Protein Multiplicity paper allowing all figures and statistical

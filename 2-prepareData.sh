@@ -54,5 +54,5 @@ then
 fi
 
 echo "You may now continue with the processing stages, 3-xxxx.sh for each figure"
-echo "Process them in order 3-fig1.sh, 3-fig2.sh, 3-fig3.sh, 3-fig4.sh, 3-fig5.sh"
-echo "3-fig7.sh, 3-Rscripts.sh, 3-table8.sh"
+echo "Process them in order 3-fig1.sh, 3-fig2.sh, 3-fig3.sh, 3-fig4.sh, "
+echo "3-Rscripts_fig1.sh, 3-Rscripts_fig2.sh"

@@ -5,9 +5,9 @@
 #	Revision:	$Revision: 1.1 $
 #	Date:	$Date: 2019/12/12 14:19:23 $
 #-------------------------------------------------
-if test $# -ne 4
+if test $# -ne 5
 then
-	echo "Usage: $0 [version, e.g. 18-02] [trembl|sprot] [Rank low] [Rank high]"
+	echo "Usage: $0 [version, e.g. 18-02] [trembl|sprot] [Rank low] [Rank high] [Num. sims]"
 	exit
 fi
 
@@ -15,6 +15,7 @@ VERSION=$1
 DB=$2
 X0=$3
 X1=$4
+SIMS=$5
 
 if test "$DB" = "trembl"
 then
@@ -64,7 +65,7 @@ cat	$REPLICAS \
 #
 #	Specify number of simulations to use.
 #
-NSMS=100
+NSMS=$SIMS
 echo `date`									>> $RANALYSIS
 echo "DAT $REPLICAS"							>> $RANALYSIS
 echo "FITRANGE $X0 - $X1"						>> $RANALYSIS

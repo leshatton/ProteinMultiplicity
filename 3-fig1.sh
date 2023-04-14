@@ -41,7 +41,7 @@ if test ! -f $CSVFILE_SORTED
 then
 	if test ! -f $CSVFILE
 	then
-		echo "File $CSVFILE is missing.  Create it with ./2-prepareData.sh"
+		echo "File $CSVFILE_SORTED and $CSVFILE are missing.  Create with ./2-prepareData.sh"
 		exit
 	fi
 #
